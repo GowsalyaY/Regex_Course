@@ -1,0 +1,86 @@
+GIT commands:
+
+ls --list of files/folders
+mkdir --make directory
+cd --current directory
+mv --move
+rm --remove
+
+To create a file
+>>echo '(content inside the file)' >>filename.md
+
+To create a empty file
+>>touch file name
+
+To check the git status
+>>git status
+>>git s(alias)
+
+To initialize the git to add the file in Git repository
+>>git init
+
+To add the file in repo
+>>git add (file name)
+
+To commit on the file 
+>>git commit -m '(comments)'
+
+To push the file in repo
+>>git push
+
+To add more number of files in repo(the red color files showing in staus)
+>>git add .
+
+To see te current working branch
+>>git branch
+
+To check the file present in repo
+>>git checkout (file name)
+
+To get all the files present in repo
+>> git checkout (3ec2b2c3addb9c8256ade5bcaa6940440c7cec40)#hashcode
+
+To create a branch in repo
+>>git checkout -b (branch name)
+
+To fetch the data and metadata
+>>git pull
+
+To know username and email
+>>git config --global user.name
+>>git config --global user.email
+>>cat ~/.gitconfig 
+
+To get log of files 
+>>git log (detailed info--author,date)[q--come out from log]
+>>git log --oneline (detail of current branch)
+>>git log --oneline --all(detail of all branch)
+
+To get log of files status
+>>git log --oneline --all --graph --decorate
+>>git lg (alias)
+
+To remove/delete a file
+>>git rm filename
+
+To ignore a file use vi editor
+>>vi .gitignore
+	*vi editor is opened,type i for typing
+	*Add the .exe of the ignoring file
+	*press esc for save
+	*then :wq to exit vi editor
+
+To merge a branch
+>>git merge branch name
+
+To delete a branch
+>>git branch -d branch name
+
+
+
+
+
+
+
+
+
